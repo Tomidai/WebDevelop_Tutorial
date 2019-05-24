@@ -1,5 +1,5 @@
 #topbar{
-    width:1000px;
+    width:1010px;
     margin: 0 auto;
     height: 40px;
 }
@@ -78,16 +78,186 @@ body{
     margin-top:5px;
 }
 
+.clear{
+    clear:both;
+}
+
+#menu-bar-container{
+    border-top:1px solid #cccccc;
+    background-color:#BB1919;
+    width:100%;
+    height:70px;
+}
+
 #menu-bar{
-    height:60px;
+    width:1010px;
+    margin:0 auto;
+}
+
+#menu-bar h1{
+    padding:0px;
+    margin:0px;
+    color:White;
+    font-size:40px;
+    font-weight:normal;
+    padding-top:10px;
+    float:left;
 }
 
 #local-news{
+    border:1px #BB4545 solid;
+    width:250px;
     float:right;
-    font-size:200%;
+    padding:5px 5px 0px 10px;
+    margin:5px 10px 0px 0px;
 }
 
-#news{
+#local-news img{
+    height:40px;
+}
+
+#local-news a{
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    position:relative;
+    top:-8px;
+}
+
+#local-news a:hover{
+    text-decoration:underline;
+}
+
+#menu-bar-2-container{
+    background-color:#A91717;
+    width:100%;
+}
+
+#menu-bar-2{
+    width:1010px;
+    height:40px;
+    margin:0 auto;
+}
+
+#menu-bar-2 a{
+    color:white;
+    text-decoration:none;
+    border-right:1px #BB4545 solid;
+    padding:0px 10px;
+    font-size:14px;
+    position:relative;
+    top:10px;
+}
+
+#down-arrow{
+    height:10px;
+    position:relative;
+    top:10px;
+    
+}
+
+.no-border{
+    border: none !important;
+}
+
+#main-page{
+    width:1010px;
+    height: auto;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+#main-page-left{
+    width:70%;
+    height:auto;
+    margin:0 auto;
     float:left;
-    font-size:200%;
+    border-right:1px #cccccc solid;
+}
+
+#main-page-left h1{
+    font-size:150%;
+    font-weight:normal;
+    width:130px;
+    border-bottom: solid 2px #BB4545;
+    margin-bottom:20px;
+}
+
+#main-text{
+    width:270px;
+}
+
+#weight-text{
+    font-weight: bold;
+    font-size: 200%;
+    text-decoration: none;
+    color:black;
+    position: relative;
+}
+
+#asda-img{
+    height:220px;
+    float:right;
+    margin:0 10px;
+}
+
+#main-page-date{
+    position:relative;
+    margin:20px 0;
+    width:auto;
+}
+
+#main-page-date img{
+    float:left;
+    width:20px;
+    margin-right: 5px;
+}
+
+#main-page-date p{
+    float:left;
+    padding-right:10px;
+    border-right: #CCCCCC 1px solid;
+    margin:0;
+}
+
+#main-page-date a{
+    text-decoration: none;
+    color:#BB4545;
+    padding-left:10px;
+}
+
+#main-page-bar{
+    height:10px;
+    width:60px;
+    border-bottom:1.5px #BB4545 solid;
+    position:relative;
+    margin-bottom:20px;
+}
+
+#rink-label{
+    text-decoration: none;
+    color:black;
+    font-size:18px;
+    line-height:20px;
+}
+
+#main-page-right{
+    width:29%;
+    height:auto;
+    margin:0;
+    float:right;
+}
+
+.article{
+    width:90px;
+    float:left;
+}
+
+.clock{
+    width:15px;
+    float:left;
+}
+
+#main-page-right h3{
+    float:left;
 }
