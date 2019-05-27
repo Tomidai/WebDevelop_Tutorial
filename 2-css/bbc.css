@@ -160,104 +160,119 @@ body{
     border: none !important;
 }
 
-#main-page{
+#page-container{
     width:1010px;
-    height: auto;
     margin:0 auto;
-    margin-top:30px;
 }
 
-#main-page-left{
-    width:70%;
-    height:auto;
-    margin:0 auto;
-    float:left;
-    border-right:1px #cccccc solid;
-}
-
-#main-page-left h1{
-    font-size:150%;
+h2{
     font-weight:normal;
-    width:130px;
-    border-bottom: solid 2px #BB4545;
-    margin-bottom:20px;
+    margin-top:40px;
+    font-size:20px;
+    border-bottom:2px solid #a91717;
+    width:105px;
 }
 
-#main-text{
-    width:270px;
-}
-
-#weight-text{
-    font-weight: bold;
-    font-size: 200%;
-    text-decoration: none;
+h3 a{
     color:black;
-    position: relative;
+    font-size:30px;
+    text-decoration:none;
 }
 
-#asda-img{
-    height:220px;
-    float:right;
-    margin:0 10px;
+h3 a:hover{
+    color:#1167a8;
 }
 
-#main-page-date{
-    position:relative;
-    margin:20px 0;
-    width:auto;
-}
-
-#main-page-date img{
-    float:left;
-    width:20px;
-    margin-right: 5px;
-}
-
-#main-page-date p{
-    float:left;
-    padding-right:10px;
-    border-right: #CCCCCC 1px solid;
-    margin:0;
-}
-
-#main-page-date a{
-    text-decoration: none;
-    color:#BB4545;
-    padding-left:10px;
-}
-
-#main-page-bar{
-    height:10px;
-    width:60px;
-    border-bottom:1.5px #BB4545 solid;
-    position:relative;
-    margin-bottom:20px;
-}
-
-#rink-label{
-    text-decoration: none;
-    color:black;
-    font-size:18px;
-    line-height:20px;
-}
-
-#main-page-right{
-    width:29%;
-    height:auto;
-    margin:0;
-    float:right;
-}
-
-.article{
-    width:90px;
+#article-summary{
+    color:#5a5a5a;
+    width:250px;
     float:left;
 }
 
 .clock{
-    width:15px;
-    float:left;
+    height:15px;
+    position:relative;
+    top:2px;
 }
 
-#main-page-right h3{
+.topic-link{
+    text-decoration:none;
+    color:#a91717;
+    border-left:1px solid #CCCCCC;
+    padding-left:10px;
+}
+
+#article-summary a:hover{
+    color:#1167a8;
+}
+
+.date{
+    padding-right:10px;
+    color:#5a5a5a;
+}
+
+#article-container{
     float:left;
+    width:670px;
+    border-right:1px solid #CCCCCC;
+    padding-right:20px;
+}
+
+#main-article-image{
+    width:400px;
+    margin-left:20px;
+}
+
+#article-hr{
+    border-top:1px solid #a91717;
+    width:50px;
+}
+
+.article-link{
+    color:black;
+    text-decoration:none;
+}
+
+#watch-listen{
+    margin-left:20px;
+    width:280px;
+    float:right;
+}
+
+h4{
+    font-weight:normal;
+    font-size:20px;
+}
+
+.article-side-image{
+    float:left;
+    width:90px;
+    margin-right:10px;
+}
+
+.watch-listen-link{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size:18px;
+}
+
+.watch-listen-link:hover{
+    color:#1167a8;
+}
+
+.side-article{
+    float:right;
+    width:180px;
+    position:relative;
+    top:-18px;
+}
+
+.no-border{
+    border-left:none;
+    padding:0;
+}
+
+.border-right{
+    border-right:1px solid #cccccc;
 }
